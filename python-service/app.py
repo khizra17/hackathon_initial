@@ -3,8 +3,10 @@ from flask import Flask, request, jsonify
 from skill_analyzer import SkillAnalyzer
 from rag_retriever import retrieve_relevant_docs
 from roadmap_generator import generate_roadmap, model
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/analyze', methods=['POST'])
 def analyze():
