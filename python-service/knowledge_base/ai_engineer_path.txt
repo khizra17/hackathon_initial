@@ -1,0 +1,5 @@
+To become an AI Engineer, focus on Python, linear algebra, and statistics first.
+Learn machine learning fundamentals using scikit-learn, then move to deep learning
+with PyTorch or TensorFlow. Build projects like image classifiers or chatbots to
+practice. Understanding data preprocessing and model evaluation is essential.
+Version control with Git and basic cloud deployment knowledge are also valuable.
